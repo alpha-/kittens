@@ -17,27 +17,56 @@ section {
     overflow: hidden;
 }
 
-/* Title */
+/* Header */
 
-#main-title {
+#main-header {
     background-color: white;
-    background-size: cover;
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 #main-title h1 {
     text-align: left;
-    font-size: 2em;
+    font-size: 1.8em;
+    margin-left: 0;
 }
 
 /* Pictures */
 
-#main-kitties {
-    background-color: lightpink;
-    background-size: cover;
-}
-
-#main-kitties p {
+#main-content {
     text-align: center;
 }
+#main-kitties {
+    display:inline-block ;
+    text-align: center;
+    background-color: lightpink;
+}
+#main-kitties h2 {
+    font-size: 1.5em;
+    margin-top: 5em;
+}
 
-#main-kitties
+.caption {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    margin: 0.3em;
+    width: 10em;
+    bottom: 5px;
+}
+
+#photos-align {
+    width: 50em;
+}
+
+.cat-photo {
+    display: inline-block;
+    width: 10em;
+}
+
+.cat-photo img {
+    margin: 1em;
+    width: 10em;
+}
+
