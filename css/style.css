@@ -63,6 +63,7 @@ section {
 .cat-photo {
     display: inline-block;
     width: 10em;
+    position: relative;
 }
 
 .cat-photo img {
