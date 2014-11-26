@@ -51,8 +51,8 @@ section {
     background-color: rgba(0,0,0,0.5);
     color: white;
     position: absolute;
-    margin: 0.3em;
-    width: 10em;
+    margin: 0.9em;
+    width: inherit;
     bottom: 5px;
 }
 
